@@ -1,0 +1,167 @@
+/**
+Theme Name: 7 Paints theme
+Author: Dante de Braso
+Version: 1.0.0
+*/
+.b-text__imageBlock img {
+    object-fit: fill;
+    max-width: 100%;
+}
+
+.b-messages-error{
+	background: #A95959;
+}
+
+.success {
+	color: #fbfaf8;
+}
+
+.error_message{
+	color: #FFE9EE;
+}
+.b-form__control.b-messages {
+    line-height: 42px;
+}
+.b-messages {
+	text-align: center;
+}
+.b-messages-success {
+	background: #008000;
+}
+span.select2.select2-container.select2-container--default{
+	display: none;
+}
+
+.fade-enter-active, .fade-leave-active {
+	transition: opacity 1s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active до версии 2.1.8 */ {
+	opacity: 0;
+}
+
+.b-cards__group{
+	flex: 1 0 100%;
+}
+
+a.widget-link {
+	text-decoration: none;
+	color: white;
+}
+
+.col-sm-6 {
+    width: 48%;
+}
+
+.col-sm-6.half-left {
+    float: left;
+}
+
+.col-sm-6.half-right {
+    float: right;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+.successCode{
+	color: green;
+	margin: 1%;
+}
+
+.errorCode{
+	color: red;
+	margin: 1%;
+}
+
+.b-button.-type_filled[disabled]{
+	background: #e8dfc9;
+	cursor: default;
+}
+
+p.number_note {
+    clear: both;
+}
+/*------MAIN-------*/
+.login {
+    display: inherit;
+}
+.add_content a:nth-child(1) {
+    float: left;
+}
+.add_content a:nth-child(2) {
+    float: right;
+}
+.add_content a {
+    display: inline-block;
+}
+.add_content .b-subtitle {
+    font: 500 20px rubik,sans-serif;
+    margin-bottom: 25px;
+}
+.close_pop.b-button.fancybox-close-small {
+    position: inherit;
+    width: auto;
+    padding: 0 15px;
+    height: auto;
+	display: inline-block;
+}
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+.login {
+    display: inline-block;
+	width: 100%;
+}
+.b-siteHeader__callback.login.js-popup {
+    display: inherit;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 20px;
+}
+}
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+.login {
+    display: inline-block;
+	width: 100%;
+}
+.b-siteHeader__callback.login.js-popup {
+    display: inherit;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 20px;
+}
+}
+
+.img_search{
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+#loader {
+    display: none;
+    border: 5px solid #9e9e9e;
+    border-top: 5px solid #c1b497;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    animation: spin 2s linear infinite;
+    z-index: 999;
+    position: absolute;
+    margin-top: 0.5%;
+    left: 74%;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.show_cart__container {
+    cursor: wait !important;
+    pointer-events: none !important;
+    opacity: 0.3;
+}
+
+
+.showTrue {
+    display: flex !important;
+}
